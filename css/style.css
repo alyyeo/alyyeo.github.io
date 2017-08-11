@@ -48,3 +48,29 @@ h1 {
 	width: 60px;
 	height: auto;
 }
+
+@media (max-width: 768px) {
+    #main {
+        background-image: url('..images/home-background.jpeg');
+        background-size: cover;
+    }
+
+    #main img {
+        display: none;
+    }
+
+    h1 {
+        top: 70%;
+    left: 70%;
+    }
+
+    .links {
+       top: 55%;
+    left: 30%;
+    }
+
+    .links a {
+        display: block;
+        padding: 50px 0;
+    }
+}
