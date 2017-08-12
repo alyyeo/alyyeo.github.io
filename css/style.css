@@ -44,9 +44,13 @@ h1 {
 	padding: 0 50px;
 }
 
-.links img {
+.links svg {
 	width: 60px;
 	height: auto;
+    fill: white;
+}
+.links svg:hover {
+    fill: rgb(34, 35, 63);
 }
 
 @media (max-width: 768px) {
