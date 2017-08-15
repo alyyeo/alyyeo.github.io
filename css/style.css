@@ -3,6 +3,11 @@ body {
     background: black;
 }
 
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 /*.jumbotron {
     background-image: url("../images/eight_horns.png");
     text-align: center;
@@ -55,26 +60,34 @@ h1 {
 
 @media (max-width: 768px) {
     #main {
-        background-image: url('..images/home-background.jpeg');
+        background-image: url('../images/home-background.jpeg');
         background-size: cover;
+        width: 200vw;
+        height: 200vh;
     }
 
     #main img {
         display: none;
     }
 
+    .content {
+        width: 100vw;
+    }
+
     h1 {
+        width: 178vw;
         top: 70%;
-    left: 70%;
+        left: 15%;
+        text-align: center;
     }
 
     .links {
-       top: 55%;
-    left: 30%;
+       top: 50%;
+        left: 33%;
     }
+}
 
-    .links a {
-        display: block;
-        padding: 50px 0;
-    }
+
+@media (min-width: 768px and max-width: 900px) {
+
 }
